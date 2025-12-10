@@ -6,6 +6,8 @@
 [![Python 3.14](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
+**🔴 Interactive Demo**: [https://advertisingsalesprediction.streamlit.app/](https://advertisingsalesprediction.streamlit.app/)
+
 ## 🎯 **Project Objective**
 
 Build a **Multiple Linear Regression** model to predict **sales** based on advertising spend across **TV, Radio, and Newspaper** channels. This helps businesses optimize their advertising budget allocation.
@@ -21,6 +23,8 @@ Build a **Multiple Linear Regression** model to predict **sales** based on adver
 - ✅ Build Linear Regression model: `Sales = β₀ + β₁TV + β₂Radio + β₃Newspaper`
 - ✅ Evaluate model performance (RMSE, R²)
 - ✅ Interpret business insights from model coefficients
+- ✅ **🚀 Deploy interactive web app with Streamlit**
+
 
 ---
 
@@ -33,6 +37,8 @@ Build a **Multiple Linear Regression** model to predict **sales** based on adver
 | **numpy** | Numerical computations |
 | **matplotlib + seaborn** | EDA visualizations |
 | **scikit-learn** | ML modeling & evaluation |
+| **Streamlit** | **Production web deployment** |
+
 
 ### Quick Setup
 
@@ -78,13 +84,24 @@ Build a **Multiple Linear Regression** model to predict **sales** based on adver
 
 ---
 
+## 🌐 **🚀 Streamlit Deployment** *(LIVE!)*
+
+**🔴 Interactive Demo**: [https://advertisingsalesprediction.streamlit.app/](https://advertisingsalesprediction.streamlit.app/)
+
+### **App Features**
+| Feature | Description |
+|---------|-------------|
+| 🎛️ **Sliders** | TV (0-300K), Radio (0-50K), Newspaper (0-120K) |
+| 🚀 **Predict** | One-click sales prediction |
+| 📊 **ROI Metrics** | Real-time channel comparison |
+| 📈 **Dataset** | Original data preview |
+
 ## 🐛 **Troubleshooting**
 
 | Issue | Solution |
 |-------|----------|
 | `ModuleNotFoundError: No module named 'sklearn'` | `!{sys.executable} -m pip install scikit-learn` |
 | VS Code kernel wrong Python | `Ctrl+Shift+P` → "Python: Select Interpreter" |
-| Plots not showing | `%matplotlib inline` at notebook start |
 
 ---
 
