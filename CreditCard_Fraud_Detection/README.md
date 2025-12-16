@@ -102,7 +102,7 @@ Prevents biased evaluation caused by uneven class distribution in the test set.
 
 Only the `Time` and `Amount` features were scaled.
 
-![Feature scaling](Images\time&amount_FeatureScale.png)
+![Feature scaling](Images/time&amount_FeatureScale.png)
 
 **Why required:**  
 - Other features were already PCA-normalized  
@@ -173,7 +173,7 @@ Accuracy alone was avoided due to class imbalance. The following metrics were us
 
 Visual comparisons helped evaluate trade-offs between recall and false positives.
 
-![ROC & Precision–Recall Curve Comparison](Images\CurveComparison_ROC&PrecisionRecall.png)
+![ROC & Precision–Recall Curve Comparison](Images/CurveComparison_ROC&PrecisionRecall.png)
 
 **Why important:**  
 Missing fraud is costlier than flagging genuine transactions.
@@ -184,10 +184,10 @@ Missing fraud is costlier than flagging genuine transactions.
 
 Multiple probability thresholds were evaluated instead of using the default 0.5.
 
-![Threshold = 0.5](Images\Threshold_1.png)
-![Threshold = 0.3](Images\Threshold_2.png)
-![Threshold = 0.2](Images\Threshold_3.png)
-![Threshold = 0.1](Images\Threshold_4.png)
+![Threshold = 0.5](Images/Threshold_1.png)
+![Threshold = 0.3](Images/Threshold_2.png)
+![Threshold = 0.2](Images/Threshold_3.png)
+![Threshold = 0.1](Images/Threshold_4.png)
 
 **Approach:**  
 - Tested multiple thresholds  
@@ -197,7 +197,7 @@ Multiple probability thresholds were evaluated instead of using the default 0.5.
 **Best Threshold:** `0.14`  
 **Minimum Expected Cost:** `2380`  
 
-![Threshold by Business Cos](Images\Threshold_5.png)
+![Threshold by Business Cos](Images/Threshold_5.png)
 
 ---
 
